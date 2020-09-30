@@ -27,7 +27,7 @@ export function ActionBar() {
           自动填充配置
         </Typography>
         <div className={classes.sectionDesktop}>
-          <IconButton color="inherit">
+          <IconButton disabled color="inherit">
             <SaveRounded />
           </IconButton>
           <IconButton edge="end" color="inherit">
@@ -37,4 +37,10 @@ export function ActionBar() {
       </Toolbar>
     </AppBar>
   );
+}
+function loadConfig(){
+
+}
+function saveConfig(){
+    
 }

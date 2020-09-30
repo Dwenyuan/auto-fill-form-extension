@@ -17,7 +17,7 @@ export const { configs } = mock({
        * @type {string}
        * @memberof RuleBean
        */
-      selector: /selector/,
+      selector: /selector\w{29}/,
 
       /**
        * dom元素对应的值/内容
