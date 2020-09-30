@@ -9,6 +9,13 @@
     },
     "default_title": "Auto Fill Form"
   },
+  "options_page": "index.html",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.bundle.js"]
+    }
+  ],
   "version": "2.1",
   "manifest_version": 2
 }
